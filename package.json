@@ -1,4 +1,4 @@
-{ "homepage": "https://kavins-12.github.io/Lyric_Search",
+{ "homepage": "https://kavins-12.github.io/Lyric_Search/",
   "name": "react02",
   "version": "0.1.0",
   "private": true,
@@ -16,7 +16,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "pre-deploy" : "npm run build",
+    "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
